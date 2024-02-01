@@ -31,3 +31,8 @@ const search = (query) => {
     })
 }
 console.log('search', search('ema'));
+
+
+const array = ['a', 'bb', 'ccc']; 
+const rta = array.map(item => item.length);
+console.log(rta);
